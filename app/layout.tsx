@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "VLOGS - Modern Tech Blog",
   description: "A blueprint for a modern blog built with Next.js and Tailwind CSS.",
+  icons: {
+    icon: "/sample.ico",
+  },
 };
 
 export default function RootLayout({
