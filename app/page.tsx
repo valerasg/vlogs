@@ -66,7 +66,7 @@ export default function Home() {
       </section>
 
       {/* Newsletter / CTA */}
-      <section className="mt-32 p-12 rounded-[3rem] bg-gray-50 dark:bg-gray-900/50 text-center">
+      <section className="mt-32 p-12 rounded-[3rem] bg-white/50 dark:bg-white/5 backdrop-blur-xl border border-gray-200/50 dark:border-white/10 shadow-2xl text-center">
         <h2 className="text-3xl font-bold mb-4">Stay in the loop</h2>
         <p className="text-gray-600 dark:text-gray-400 mb-8 max-w-md mx-auto">
           Subscribe to our newsletter and get the latest articles delivered straight to your inbox.
@@ -75,7 +75,7 @@ export default function Home() {
           <input 
             type="email" 
             placeholder="your@email.com" 
-            className="flex-1 px-6 py-4 rounded-2xl border-none ring-1 ring-gray-200 dark:ring-gray-800 bg-white dark:bg-black focus:ring-2 focus:ring-black dark:focus:ring-white outline-none transition-all"
+            className="flex-1 px-6 py-4 rounded-2xl border-none ring-1 ring-gray-200/50 dark:ring-white/10 bg-white/40 dark:bg-white/5 backdrop-blur-sm focus:ring-2 focus:ring-black dark:focus:ring-white outline-none transition-all"
           />
           <button className="px-8 py-4 bg-black text-white dark:bg-white dark:text-black rounded-2xl font-bold hover:opacity-90 transition-opacity">
             Subscribe

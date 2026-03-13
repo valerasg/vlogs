@@ -6,7 +6,7 @@ export default function PostPreview({ post }: { post: Post }) {
   const { title, excerpt, coverImage, date, author, slug, categories } = post;
   
   return (
-    <article className="group relative flex flex-col items-start gap-4">
+    <article className="group relative flex flex-col items-start gap-4 p-4 -m-4 rounded-[2rem] transition-all duration-500 hover:bg-white/50 dark:hover:bg-white/5 hover:backdrop-blur-xl hover:shadow-2xl border border-transparent hover:border-gray-200/50 dark:hover:border-white/10">
       <div className="relative aspect-video w-full overflow-hidden rounded-2xl bg-gray-100 dark:bg-gray-800">
         <Image
           src={coverImage}

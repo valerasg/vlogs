@@ -69,7 +69,7 @@ export default async function PostPage({ params }: PageProps) {
       />
       
       <div className="mt-20 pt-12 border-t border-gray-100 dark:border-gray-800">
-        <div className="bg-gray-50 dark:bg-gray-900/50 p-8 rounded-[2rem] flex items-center gap-6">
+        <div className="bg-white/50 dark:bg-white/5 backdrop-blur-xl border border-gray-200/50 dark:border-white/10 p-8 rounded-[2rem] flex items-center gap-6 shadow-xl">
           <div className="relative h-20 w-20 flex-shrink-0 overflow-hidden rounded-3xl">
             <Image src={post.author.avatar} alt={post.author.name} fill className="object-cover" />
           </div>
