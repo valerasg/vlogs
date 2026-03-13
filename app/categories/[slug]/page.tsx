@@ -6,6 +6,14 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+export async function generateStaticParams() {
+  const categories = MOCK_POSTS.flatMap((post) => post.categories);
+  const uniqueCategories = Array.from(new Set(categories.map((c) => c.slug))).map((slug) => {
+    return { slug };
+  });
+  return uniqueCategories;
+}
+
 export default async function CategoryPage({ params }: PageProps) {
   const { slug } = await params;
   const categoryPosts = MOCK_POSTS.filter((p) => 
