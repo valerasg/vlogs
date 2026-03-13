@@ -51,7 +51,7 @@ export default function RootLayout({
         </main>
         <footer className="border-t border-gray-100 dark:border-gray-800 py-12 mt-24">
           <div className="max-w-6xl mx-auto px-4 text-center">
-            <p className="text-sm text-gray-500">© 2024 VLOGS. All rights reserved.</p>
+            <p className="text-sm text-gray-500">© 2026 VLOGS. All rights reserved.</p>
           </div>
         </footer>
       </body>
